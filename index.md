@@ -1,48 +1,60 @@
 ---
 layout: default
-title: 7.12 Acre Property for Sale in Ringgold
+title: 158 Bowman Road – For Sale By Owner
 ---
 
-<header class="hero">
-  <h1>7.12-Acre Dream Homesite – Cleared, Prepped, and Ready to Build!</h1>
-  <p>Located just 8 minutes from I-75 in Ringgold, GA</p>
-</header>
+# 158 Bowman Road – 7.12 Acres For Sale by Owner
 
-<section class="description">
-  <p>Discover the perfect blend of privacy, convenience, and natural beauty with this <strong>7.12-acre</strong> property, thoughtfully prepared for your dream home. This land consists of <strong>four separate parcels</strong> (1ac, 1ac, 2.56ac, and 2.56ac), providing flexibility for future development or resale.</p>
+Welcome to 158 Bowman Road – a stunning 7.12-acre property in Ringgold, Georgia, thoughtfully cleared and prepped for your dream home. This listing includes **four separately deeded parcels** (1ac, 1ac, 2.56ac, 2.56ac), and offers flexibility for family estates, accessory dwellings, or future resale.
 
-  <p>Since acquiring this property, we’ve done the hard work for you—<strong>over 4 acres have been cleared</strong>, creating an ideal <strong>homesite with a beautiful elevation</strong>, a <strong>gravel driveway</strong> ready for future paving, and space for an <strong>orchard, livestock paddocks, or an accessory dwelling unit (ADU)</strong>. A <strong>water utility address is already assigned and installed on-site</strong>.</p>
+We originally purchased this property with the intent to build but timelines changed. Since then, we’ve:
+- Cleared 4+ acres for orchard, homesite, and pasture
+- Installed a gravel driveway, prepped for paving
+- Installed water utilities with assigned address
+- Preserved privacy with surrounding hardwoods
 
-  <p>Enjoy a <strong>peaceful, private setting</strong> with mature hardwoods, while still being just <strong>10 minutes from highly sought-after Heritage Middle and Heritage High School, as well as Woodstation Elementary</strong>.</p>
+Located **10 minutes from Heritage High and Middle Schools** and only **8 minutes from I-75**, this is an ideal homesite or investment for someone looking to build now or plan for the future.
 
-  <p>If you’re looking for a homesite that’s ready to build on while keeping space for nature and future possibilities, this is it!</p>
-</section>
+## Property Location
 
-<section class="map">
-  <h2>Property Location</h2>
-  <div class="map-embed">
-    <iframe src="https://maps.google.com/maps?q=158%20Bowman%20Rd,%20Ringgold,%20GA%2030736&z=15&output=embed" width="100%" height="450" style="border:0; border-radius: 8px;" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+<iframe src="https://maps.google.com/maps?q=158%20Bowman%20Rd,%20Ringgold,%20GA%2030736&z=15&output=embed" width="100%" height="450" style="border:0; border-radius: 8px;" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+<div class="parcel-cards">
+  <h2>Parcel Records</h2>
+  <div class="card-grid">
+    <details class="card-details">
+      <summary>Parcel 0028B006 – 1.00 acre</summary>
+      <a class="card-link" href="https://beacon.schneidercorp.com/Application.aspx?AppID=677&LayerID=11364&PageTypeID=4&PageID=4757&Q=100861903&KeyValue=0028B006" target="_blank" rel="noopener">View County GIS Record</a>
+    </details>
+    <details class="card-details">
+      <summary>Parcel 0028B007 – 1.00 acre</summary>
+      <a class="card-link" href="https://beacon.schneidercorp.com/Application.aspx?AppID=677&LayerID=11364&PageTypeID=4&PageID=4757&Q=100861903&KeyValue=0028B007" target="_blank" rel="noopener">View County GIS Record</a>
+    </details>
+    <details class="card-details">
+      <summary>Parcel 0028B008 – 2.56 acres</summary>
+      <a class="card-link" href="https://beacon.schneidercorp.com/Application.aspx?AppID=677&LayerID=11364&PageTypeID=4&PageID=4757&Q=100861903&KeyValue=0028B008" target="_blank" rel="noopener">View County GIS Record</a>
+    </details>
+    <details class="card-details">
+      <summary>Parcel 0028B009 – 2.56 acres</summary>
+      <a class="card-link" href="https://beacon.schneidercorp.com/Application.aspx?AppID=677&LayerID=11364&PageTypeID=4&PageID=4757&Q=100861903&KeyValue=0028B009" target="_blank" rel="noopener">View County GIS Record</a>
+    </details>
   </div>
-  <p style="margin-top: 1rem; text-align: center;">
-    <a href="https://beacon.schneidercorp.com/Application.aspx?App=CatoosaCountyGA&Layer=Parcels&PageType=Search" target="_blank">
-      View Property Record on Catoosa County GIS Website
+</div>
+
+## Gallery
+
+<div class="gallery">
+  {% assign images = site.static_files | where_exp:"file", "file.path contains '/assets/images/'" %}
+  {% for image in images %}
+    {% assign thumb = image.path | replace: '/images/', '/thumbnails/' %}
+    <a href="{{ image.path }}" data-lightbox="listing" data-title="{{ image.name }}">
+      <img src="{{ thumb }}" alt="{{ image.name | split: '.' | first }}" loading="lazy" />
     </a>
-  </p>
-</section>
+  {% endfor %}
+</div>
 
-<section class="gallery">
-  <h2>Gallery</h2>
-  <div class="photos" id="lightbox-gallery">
-    {% assign images = site.static_files | where_exp:"file","file.path contains '/assets/images/'" %}
-    {% for image in images %}
-      {% assign thumb = image.path | replace: '/images/', '/thumbnails/' %}
-      <a href="{{ image.path }}" data-lightbox="property-gallery">
-        <img src="{{ thumb }}" alt="Drone view of the property thumbnail" loading="lazy" />
-      </a>
-    {% endfor %}
-  </div>
-</section>
+---
 
-<footer>
-  <p>For inquiries, please contact us at <a href="mailto:interest@158bowman.cc">interest@158bowman.cc</a></p>
-</footer>
+## Interested?
+
+Reach out via email at [interest@158bowman.cc](mailto:interest@158bowman.cc) for more info or to schedule a visit.
