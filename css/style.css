@@ -34,7 +34,7 @@ header.hero p {
   opacity: 0.9;
 }
 
-section.description {
+section.description, section.map {
   font-size: 1.1rem;
   line-height: 1.8;
   margin-top: 2rem;
@@ -44,7 +44,7 @@ section.gallery {
   margin-top: 3rem;
 }
 
-.gallery h2 {
+.gallery h2, .map h2 {
   font-family: 'Playfair Display', serif;
   font-size: 2rem;
   margin-bottom: 1rem;
@@ -63,6 +63,7 @@ section.gallery {
   border-radius: 10px;
   box-shadow: 0 6px 15px rgba(0,0,0,0.1);
   transition: transform 0.3s ease;
+  cursor: zoom-in;
 }
 
 .gallery img:hover {

@@ -18,17 +18,31 @@ title: 7.12 Acre Property for Sale in Ringgold
   <p>If you’re looking for a homesite that’s ready to build on while keeping space for nature and future possibilities, this is it!</p>
 </section>
 
+<section class="map">
+  <h2>Property Location</h2>
+  <div class="map-embed">
+    <iframe src="https://maps.google.com/maps?q=158%20Bowman%20Rd,%20Ringgold,%20GA%2030736&z=15&output=embed" width="100%" height="450" style="border:0; border-radius: 8px;" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>
+  <p style="margin-top: 1rem; text-align: center;">
+    <a href="https://beacon.schneidercorp.com/Application.aspx?App=CatoosaCountyGA&Layer=Parcels&PageType=Search" target="_blank">
+      View Property Record on Catoosa County GIS Website
+    </a>
+  </p>
+</section>
+
 <section class="gallery">
   <h2>Gallery</h2>
-  <div class="photos">
-    {% for image in site.static_files %}
-      {% if image.path contains '/assets/images/' %}
-        <img src="{{ image.path }}" alt="Drone view of the property" />
-      {% endif %}
+  <div class="photos" id="lightbox-gallery">
+    {% assign images = site.static_files | where_exp:"file","file.path contains '/assets/images/'" %}
+    {% for image in images %}
+      {% assign thumb = image.path | replace: '/images/', '/thumbnails/' %}
+      <a href="{{ image.path }}" data-lightbox="property-gallery">
+        <img src="{{ thumb }}" alt="Drone view of the property thumbnail" loading="lazy" />
+      </a>
     {% endfor %}
   </div>
 </section>
 
 <footer>
-  <p>For inquiries, please contact us at <a href="mailto:youremail@example.com">youremail@example.com</a></p>
+  <p>For inquiries, please contact us at <a href="mailto:interest@158bowman.cc">interest@158bowman.cc</a></p>
 </footer>
