@@ -1,23 +1,48 @@
 ---
 layout: default
-title: 158 Bowman Road – For Sale By Owner
+title: 158 Bowman Road – Premium Homesite in Ringgold, GA
 ---
 
-# 158 Bowman Road – 7.12 Acres For Sale by Owner
+# 158 Bowman Road – Build the Homestead You’ve Always Imagined
 
-Welcome to 158 Bowman Road – a stunning 7.12-acre property in Ringgold, Georgia, thoughtfully cleared and prepped for your dream home. This listing includes **four separately deeded parcels** (1ac, 1ac, 2.56ac, 2.56ac), and offers flexibility for family estates, accessory dwellings, or future resale.
+**Offered For Sale by Owner: 7.12 Acres across Four Parcels | Ringgold, Georgia**
 
-We originally purchased this property with the intent to build but timelines changed. Since then, we’ve:
-- Cleared 4+ acres for orchard, homesite, and pasture
-- Installed a gravel driveway, prepped for paving
-- Installed water utilities with assigned address
-- Preserved privacy with surrounding hardwoods
+Welcome to 158 Bowman Road — a **rare, ready-to-build property** offering the perfect canvas for your **custom farmhouse, hobby farm, shop, or barndominium**. Nestled in the countryside just 8 minutes from I-75 and zoned for some of Catoosa County’s most desirable schools, this 7.12-acre opportunity is a dream site for buyers seeking privacy, freedom, and flexibility without sacrificing convenience.
 
-Located **10 minutes from Heritage High and Middle Schools** and only **8 minutes from I-75**, this is an ideal homesite or investment for someone looking to build now or plan for the future.
+## Why You'll Love This Property
 
-## Property Location
+- 🏡 **Homesite-Ready**: Elevated, private build site with **gravel driveway already cut in and prepped for asphalt or concrete**
+- 💧 **Utilities On-Site**: **Water tap installed** with assigned address
+- 🌳 **Wooded + Cleared Balance**: Over **4 acres cleared**, perfect for **orchards, gardens, pasture, or paddocks**, while mature hardwoods maintain natural privacy
+- 🧱 **Modern Farmstead Friendly**: Ample room for a **main home + accessory dwelling unit**, barn, workshop, or detached garage
+- 🗺️ **Four Parcels Included**: Ideal for multigenerational family builds or long-term investment (1ac, 1ac, 2.56ac, 2.56ac)
+- 📍 **Prime Location**: 10 minutes to Heritage High & Middle Schools; 8 minutes to shopping, dining, and I-75 access at Ringgold
+
+Whether you're dreaming of a modern farmhouse with wrap-around porch, a barn-style retreat with acreage for animals, or simply want the space to build without restriction — **this is where your next chapter begins.**
+
+---
+
+## 📸 Property Gallery
+
+<div class="gallery">
+  {% assign images = site.static_files | where_exp:"file", "file.path contains '/assets/images/'" %}
+  {% for image in images %}
+    {% assign thumb = image.path | replace: '/images/', '/thumbnails/' %}
+    <a href="{{ image.path }}" data-lightbox="listing" data-title="158 Bowman Road – Aerial View">
+      <img src="{{ thumb }}" alt="158 Bowman Road image" loading="lazy" />
+    </a>
+  {% endfor %}
+</div>
+
+---
+
+## 📍 Property Location
 
 <iframe src="https://maps.google.com/maps?q=158%20Bowman%20Rd,%20Ringgold,%20GA%2030736&z=15&output=embed" width="100%" height="450" style="border:0; border-radius: 8px;" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+---
+
+## 📄 Parcel Information
 
 <div class="parcel-cards">
   <h2>Parcel Records</h2>
@@ -41,20 +66,12 @@ Located **10 minutes from Heritage High and Middle Schools** and only **8 minute
   </div>
 </div>
 
-## Gallery
-
-<div class="gallery">
-  {% assign images = site.static_files | where_exp:"file", "file.path contains '/assets/images/'" %}
-  {% for image in images %}
-    {% assign thumb = image.path | replace: '/images/', '/thumbnails/' %}
-    <a href="{{ image.path }}" data-lightbox="listing" data-title="{{ image.name }}">
-      <img src="{{ thumb }}" alt="{{ image.name | split: '.' | first }}" loading="lazy" />
-    </a>
-  {% endfor %}
-</div>
-
 ---
 
-## Interested?
+## 📬 Schedule a Tour or Request More Info
 
-Reach out via email at [interest@158bowman.cc](mailto:interest@158bowman.cc) for more info or to schedule a visit.
+Interested in walking the property or requesting a copy of the plat?
+
+📧 Email us at [interest@158bowman.cc](mailto:interest@158bowman.cc) and we’ll be happy to connect with you directly.
+
+---

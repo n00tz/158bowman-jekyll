@@ -1,3 +1,4 @@
+/* Typography and Layout */
 body {
     font-family: 'Open Sans', sans-serif;
     background-color: #f8f9fa;
@@ -7,20 +8,30 @@ body {
   }
   
   .container {
-    max-width: 900px;
+    max-width: 960px;
     margin: 0 auto;
     padding: 2rem 1.5rem;
-    background: #fff;
+    background: #ffffff;
     box-shadow: 0 0 20px rgba(0,0,0,0.05);
-    border-radius: 10px;
+    border-radius: 12px;
   }
   
-  h1, h2 {
+  h1, h2, h3 {
     font-family: 'Playfair Display', serif;
     color: #1c2a3a;
-    margin-top: 2rem;
+    margin-top: 2.5rem;
   }
   
+  a {
+    color: #2a5885;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Gallery Layout */
   .gallery {
     display: flex;
     flex-wrap: wrap;
@@ -34,9 +45,14 @@ body {
     max-width: 280px;
     border-radius: 6px;
     box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+    transition: transform 0.3s;
   }
   
-  /* Parcel Card Styling */
+  .gallery img:hover {
+    transform: scale(1.03);
+  }
+  
+  /* Parcel Cards */
   .parcel-cards {
     margin-top: 2rem;
     text-align: center;
@@ -84,7 +100,7 @@ body {
     background-color: #f0f0f0;
   }
   
-  /* Responsive tweaks */
+  /* Responsive Enhancements */
   @media (min-width: 600px) {
     .card-grid {
       flex-direction: row;
@@ -95,4 +111,19 @@ body {
     .card-details {
       width: 45%;
     }
-  }  
+  }
+  
+  @media (max-width: 480px) {
+    .gallery img {
+      max-width: 100%;
+    }
+  
+    h1 {
+      font-size: 1.8rem;
+    }
+  
+    h2 {
+      font-size: 1.4rem;
+    }
+  }
+  
