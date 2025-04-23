@@ -24,8 +24,8 @@ Whether you're dreaming of a modern farmhouse with wrap-around porch, a barn-sty
 
 ## Asking Price: $195,000
 
-**Owner Financing Available**
-**Price Negotiable for Cash-Only Closing**
+- **Owner Financing Available**
+- **Price Negotiable for Cash-Only Closing**
 
 ---
 
