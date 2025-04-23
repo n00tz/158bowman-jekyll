@@ -5,7 +5,7 @@ title: 158 Bowman Road – Premium Homesite in Ringgold, GA
 
 # 158 Bowman Road – Build the Homestead You’ve Always Imagined
 
-**Offered For Sale by Owner: 7.12 Acres across Four Parcels | Ringgold, Georgia**
+**Offered For Sale by Owner: 7.12 Acres across Four Parcels | Ringgold, Georgia | Asking Price $195000**
 
 Welcome to 158 Bowman Road — a **rare, ready-to-build property** offering the perfect canvas for your **custom farmhouse, hobby farm, shop, or barndominium**. Nestled in the countryside just 8 minutes from I-75 and zoned for some of Catoosa County’s most desirable schools, this 7.12-acre opportunity is a dream site for buyers seeking privacy, freedom, and flexibility without sacrificing convenience.
 
@@ -70,7 +70,7 @@ Whether you're dreaming of a modern farmhouse with wrap-around porch, a barn-sty
 
 ## 📬 Schedule a Tour or Request More Info
 
-Interested in walking the property or requesting a copy of the plat?
+Interested in walking the property or requesting more information?
 
 📧 Email us at [interest@158bowman.cc](mailto:interest@158bowman.cc) and we’ll be happy to connect with you directly.
 
